@@ -1,0 +1,26 @@
+void アイ共通_ｲﾅｽﾞﾏ()
+{
+	if (所持金() < 200)
+	{
+		アイ共通_OUT();
+		return;
+	}
+	if (武器確認(1) >= 2)
+	{
+		アイ共通_NO();
+		return;
+	}
+	セリフ(1141, "");
+	'"The Lightning Sword? That\'ll be 200 Gold."' AX;
+	セリフ(1001, "");
+	'"Does it come with anything?"' AX;
+	セリフ(1141, "");
+	'"I\'ll give you a Seirogan as a bonus, then."' AX;
+	'I bought a Lightning Sword. The moment I obtained the' R;
+	'sword, the one I had been using melted away into' R;
+	'nothing.' AX;
+	お支払い(200);
+	世色癌 += 1;
+	武器変更(1, 2);
+	return;
+}

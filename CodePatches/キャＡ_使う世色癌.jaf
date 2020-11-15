@@ -1,0 +1,21 @@
+void キャＡ_使う世色癌()
+{
+	'Who will take the Seirogan, Rance or Sill?' AX;
+	選択肢登録(1, "Rance", -1, 0);
+	選択肢登録(2, "Sill", -1, 0);
+	選択肢登録(3, "Back", -1, 0);
+	int sel = 選択実行(1, 0);
+	if (sel == 1)
+	{
+		キャＡ_MD01();
+	}
+	if (sel == 2)
+	{
+		キャＡ_MD02();
+	}
+	if (sel == 3 || sel == 0)
+	{
+		キャＡ_MDﾔﾒ();
+	}
+	return;
+}

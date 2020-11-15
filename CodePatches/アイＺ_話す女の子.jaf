@@ -1,0 +1,117 @@
+void アイＺ_話す女の子()
+{
+	if (D01 == 0)
+	{
+		セリフ(1141, "");
+		'"It\'s my dream to be a beautiful minstrel in the future. I' R;
+		'`want to travel around and sing about the saga of an' R;
+		'`incredible hero."' AX;
+		セリフ(1001, "");
+		'"You should tell people about me on your travels, then!' R;
+		'`Sing the story of my brave quest for justice!"' AX;
+		セリフ(1141, "");
+		'"If I did that, I\'d only be able to sing to an 18+ audience."' AX;
+		セリフ(1011, "");
+		'"Ahahahaha!"' AX;
+		'(Whack, whack, whack!)' AX;
+		セリフ(1013, "");
+		'"Aww."' AX;
+		セリフ(1001, "");
+		'"Stupid."' AX;
+		D01 = 1;
+		return;
+	}
+	セリフ(1141, "");
+	'"I\'m really into haiku right now. Listen to one I just' R;
+	'`wrote."' AX;
+	セリフ(1011, "");
+	'"Wow, that\'s impressive."' AX;
+	セリフ(1141, "");
+	'"' Y4(6);
+	if (RND == 1)
+	{
+		'An old, tranquil pond,';
+	}
+	if (RND == 2)
+	{
+		'A pleasant spring day,';
+	}
+	if (RND == 3)
+	{
+		'Deep in a forest,';
+	}
+	if (RND == 4)
+	{
+		'My homeland, JAPAN,';
+	}
+	if (RND == 6)
+	{
+		'On an autumn night,';
+	}
+	if (RND == 5)
+	{
+		'A vicious killer,';
+	}
+	R();
+	' ' Y4(6);
+	if (RND == 1)
+	{
+		'a frog leaps into water,';
+	}
+	if (RND == 2)
+	{
+		'dismembering a body,';
+	}
+	if (RND == 3)
+	{
+		'wish I were playing a game,';
+	}
+	if (RND == 4)
+	{
+		'I think on feelings of love,';
+	}
+	if (RND == 6)
+	{
+		'the pain of sexual acts,';
+	}
+	if (RND == 5)
+	{
+		'what was any of it worth,';
+	}
+	R();
+	' ' Y4(7);
+	if (RND == 1)
+	{
+		'the round of water.';
+	}
+	if (RND == 2)
+	{
+		'the sound of laughter.';
+	}
+	if (RND == 3)
+	{
+		'what an idiot.';
+	}
+	if (RND == 4)
+	{
+		'just a fleeting thought.';
+	}
+	if (RND == 6)
+	{
+		'defiling a hole.';
+	}
+	if (RND == 5)
+	{
+		'a miserable hole.';
+	}
+	if (RND == 7)
+	{
+		'number 101.';
+	}
+	'"' AX;
+	セリフ(1001, "");
+	'"Needs work."' AX;
+	セリフ(1141, "");
+	'"Aww, I need more training."' AX;
+	return;
+}

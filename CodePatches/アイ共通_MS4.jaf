@@ -1,0 +1,6 @@
+void アイ共通_MS4()
+{
+	セリフ(1141, "");
+	'"50 of them...? That\'s so much Seirogan."' AX;
+	return;
+}

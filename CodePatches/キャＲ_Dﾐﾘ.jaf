@@ -1,0 +1,11 @@
+void キャＲ_Dﾐﾘ()
+{
+	世色癌 = 世色癌 - 1;
+	セリフ(1051, "");
+	'"Tastes like crap."' AX;
+	ＨＰ回復(4, 10, 1);
+	'We\'ve got';
+	' ' N(世色癌, 0, 0);
+	'Seirogan left.' AX;
+	return;
+}

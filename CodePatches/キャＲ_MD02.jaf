@@ -1,0 +1,11 @@
+void キャＲ_MD02()
+{
+	世色癌 = 世色癌 - 1;
+	セリフ(1021, "");
+	'"Guess good medicine tastes bad..."' AX;
+	ＨＰ回復(3, 10, 1);
+	'We\'ve got';
+	' ' N(世色癌, 0, 0);
+	'Seirogan left.' AX;
+	return;
+}
